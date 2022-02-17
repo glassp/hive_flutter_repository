@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+ - **IMPROVEMENT**
+    - removed pubspec.lock to prevent dependency conflicts
 ## 1.0.1
  - **DOCS:** 
     - adjusted README.md
