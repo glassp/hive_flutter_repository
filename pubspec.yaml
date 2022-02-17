@@ -1,0 +1,15 @@
+name: hive_flutter_repository
+description: A DatabaseAdapter for the hive database as used by the database_repository package optimized for use with flutter
+version: 0.1.0
+repository: https://github.com/glassp/hive_flutter_repository
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_repository: ^1.0.0
+  hive_flutter: "^1.1.0"
+dev_dependencies:
+  effective_dart: ^1.3.2
