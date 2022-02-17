@@ -5,7 +5,7 @@
 Use this database adapter for hive to integrate with database_repository when running using flutter
 
 ## Not using Flutter?
-Better use (hive_repository)[https://pub.dev/packages/hive_repository] as it does not rely on the flutter SDK
+Better use [hive_repository](https://pub.dev/packages/hive_repository) as it does not rely on the flutter SDK
 
 ## How to install
 ```bash
