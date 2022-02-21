@@ -12,9 +12,15 @@ class HiveFlutterDatabaseAdapter extends HiveDatabaseAdapter {
   ///
   /// It initialized Hive using `Hive.initFlutter` which will automatically
   /// ensure the widget bindings are initialized and use the correct directory
-  /// forthe given platform to store the hive files
+  /// for the given platform to store the hive files
   /// (e.g. `getApplicationDocumentsDirectory`)
-  HiveFlutterDatabaseAdapter({required String path}) : super(path: path);
+  HiveFlutterDatabaseAdapter({
+    required String path,
+    String name = 'hive',
+  }) : super(
+          path: path,
+          name: name,
+        );
 
   @override
   Future<void> init() async {

@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+ - **BUG FIX**
+    - allow to set the name for HiveFlutterDatabaseAdapter
 ## 1.0.2
  - **IMPROVEMENT**
     - removed pubspec.lock to prevent dependency conflicts
